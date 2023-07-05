@@ -1,0 +1,60 @@
+2023-07-04 23:35:40,807 	 [ERROR | transaction_producer.py:35] > Error __init__: Unrecognized configs: {'bootstrap_sesrvers': 'localhost:9092'}
+Traceback (most recent call last):
+  File "/Users/eodemir/Documents/GitHub/Friendsurance_senior_data_engineer_challenge/data_simulation/src/transaction_producer.py", line 30, in __init__
+    self.main_producer = KafkaProducer(bootstrap_sesrvers=BOOTSTRAP_SERVERS,
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/kafka/producer/kafka.py", line 354, in __init__
+    assert not configs, 'Unrecognized configs: %s' % (configs,)
+AssertionError: Unrecognized configs: {'bootstrap_sesrvers': 'localhost:9092'}
+2023-07-04 23:35:54,858 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-04 23:35:54,862 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-04 23:35:54,862 	 [ERROR | spark_stream_table1.py:166] > An error occured while initializing complete function.
+Traceback (most recent call last):
+  File "/Users/eodemir/Documents/GitHub/Friendsurance_senior_data_engineer_challenge/src/spark_stream_table1.py", line 164, in complete
+    self.df_all.writeStream.format("append").foreach(write_to_mysql).start().awaitTermination()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/streaming.py", line 107, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o141.awaitTermination

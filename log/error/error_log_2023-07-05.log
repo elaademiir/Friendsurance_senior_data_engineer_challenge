@@ -1,0 +1,735 @@
+2023-07-05 01:54:51,646 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 01:54:51,651 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 01:56:55,545 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 01:56:55,551 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 01:57:12,770 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 01:57:12,773 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 01:58:47,360 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 01:58:47,370 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:00:16,995 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:00:16,998 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:14:01,123 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:14:01,125 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:14:01,127 	 [ERROR | case_one_solution.py:104] > An error occured in load_batch_data function.
+Traceback (most recent call last):
+  File "/Users/eodemir/Documents/GitHub/Friendsurance_senior_data_engineer_challenge/src/case_one_solution.py", line 91, in load_batch_data
+    self.customer_df=self.spark.read.format("csv").option("header","true")\
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/session.py", line 1069, in read
+    return DataFrameReader(self)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/readwriter.py", line 66, in __init__
+    self._jreader = spark._jsparkSession.read()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o30.read
+2023-07-05 02:14:01,273 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:14:01,273 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:14:01,274 	 [ERROR | case_one_solution.py:117] > An error occured while initializing a stream pipeline in run_stream function.
+Traceback (most recent call last):
+  File "/Users/eodemir/Documents/GitHub/Friendsurance_senior_data_engineer_challenge/src/case_one_solution.py", line 109, in run_stream
+    self.transaction_df = self.spark.readStream.format("kafka") \
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/streaming.py", line 469, in load
+    return self._df(self._jreader.load())
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o38.load
+2023-07-05 02:14:01,274 	 [ERROR | case_one_solution.py:135] > An error occured while initializing transform_stream_data function.
+Traceback (most recent call last):
+  File "/Users/eodemir/Documents/GitHub/Friendsurance_senior_data_engineer_challenge/src/case_one_solution.py", line 122, in transform_stream_data
+    self.transaction_df=self.transaction_df.selectExpr("CAST(value AS STRING)")
+AttributeError: 'SparkPipeline' object has no attribute 'transaction_df'
+2023-07-05 02:14:01,274 	 [ERROR | case_one_solution.py:159] > An error occured while initializing join_data function.
+Traceback (most recent call last):
+  File "/Users/eodemir/Documents/GitHub/Friendsurance_senior_data_engineer_challenge/src/case_one_solution.py", line 140, in join_data
+    self.customer_with_transaction = self.transaction_df.join(self.customer_df,
+AttributeError: 'SparkPipeline' object has no attribute 'transaction_df'
+2023-07-05 02:14:01,274 	 [ERROR | case_one_solution.py:166] > An error occured while initializing complete function.
+Traceback (most recent call last):
+  File "/Users/eodemir/Documents/GitHub/Friendsurance_senior_data_engineer_challenge/src/case_one_solution.py", line 164, in complete
+    self.df_all.writeStream.format("append").foreach(write_to_mysql).start().awaitTermination()
+AttributeError: 'SparkPipeline' object has no attribute 'df_all'
+2023-07-05 02:14:14,192 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:14:14,197 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:14:14,198 	 [ERROR | case_one_solution.py:166] > An error occured while initializing complete function.
+Traceback (most recent call last):
+  File "/Users/eodemir/Documents/GitHub/Friendsurance_senior_data_engineer_challenge/src/case_one_solution.py", line 164, in complete
+    self.df_all.writeStream.format("append").foreach(write_to_mysql).start().awaitTermination()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/streaming.py", line 107, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o141.awaitTermination
+2023-07-05 02:16:20,193 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:16:20,199 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:17:05,650 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:17:05,654 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:20:50,876 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:20:50,879 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:22:07,673 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:22:07,677 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:22:52,115 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:22:52,129 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:36:07,440 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:36:07,444 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:36:07,445 	 [ERROR | case_two_solution.py:128] > An error occured while initializing data_insert function.
+Traceback (most recent call last):
+  File "/Users/eodemir/Documents/GitHub/Friendsurance_senior_data_engineer_challenge/src/case_two_solution.py", line 126, in data_insert
+    query.awaitTermination()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/streaming.py", line 107, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o72.awaitTermination
+2023-07-05 02:51:39,106 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:51:39,116 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:51:39,117 	 [ERROR | case_two_solution.py:126] > An error occured while initializing data_insert function.
+Traceback (most recent call last):
+  File "/Users/eodemir/Documents/GitHub/Friendsurance_senior_data_engineer_challenge/src/case_two_solution.py", line 124, in data_insert
+    query.awaitTermination()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/streaming.py", line 107, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o70.awaitTermination
+2023-07-05 02:55:48,566 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=6>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:55:48,573 	 [ERROR | java_gateway.py:1055] > Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 362, in signal_handler
+    self.cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/context.py", line 1447, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o19.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2023-07-05 02:55:48,574 	 [ERROR | case_two_solution.py:126] > An error occured while initializing data_insert function.
+Traceback (most recent call last):
+  File "/Users/eodemir/Documents/GitHub/Friendsurance_senior_data_engineer_challenge/src/case_two_solution.py", line 124, in data_insert
+    query.awaitTermination()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/streaming.py", line 107, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/pyspark/sql/utils.py", line 190, in deco
+    return f(*a, **kw)
+  File "/Users/eodemir/opt/anaconda3/lib/python3.9/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o70.awaitTermination

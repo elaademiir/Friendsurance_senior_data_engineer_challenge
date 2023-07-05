@@ -1,0 +1,21 @@
+kafka_connection:
+  bootstrap_servers: "localhost:9092"
+  scan_startup_mode: "latest-offset"
+  value_format: "json"
+  sync_time_second: 3
+kafka_topics:
+  customer_topic: "customer_topic"
+  exchange_rate_topic: "exchange_rate_topic"
+  transaction_topic: "transaction_topic"
+sample_data_paths: 
+  customer_csv: "./data_simulation/sample_data/customer.csv"
+  exchange_rate_cv: "./data_simulation/sample_data/exchange_rate.csv"
+  transaction_csv: "./data_simulation/sample_data/transaction.csv"
+mysql_connection:
+  user: "root"
+  pwd: "root"
+  database: "friendsurance"
+  table_case1: "table_one_euro"
+  table_case2: "tbl_exchange_rate"
+  host: "localhost"
+  port: 33066
